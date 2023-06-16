@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../Encriptador/style/meyerweb.com_eric_tools_css_reset_reset200802.css">
     <link rel="stylesheet" href="../Encriptador/style/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Raleway&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="../Encriptador/js/funcionamiento.js"></script>
 </head>
 <body>
     
@@ -18,11 +19,11 @@
             <div class="logo-alura">
                 <img src="img/logoalura.png" alt="Logo de alura">
             </div>
-
+       
             <div class="texto-usuario">
-                <textarea class="area-escritura" id="areaEscritura" cols="70" rows="20"  placeholder="Ingrese el texto aquí"></textarea>
+            <textarea class="area-escritura" id="areaEscritura" cols="70" rows="20"  placeholder="Ingrese el texto aquí"></textarea>
             </div>
-
+           
             <div class="botones">
 
                 <div class="condicionales">
@@ -31,8 +32,8 @@
                 </div>
 
                 <div class="botones-container">
-                    <button type="submit" id="encriptador">Encriptar</button>
-                    <button type="su" id="desencriptador">Desencriptar</button>
+                    <button type="button" id="encriptador">Encriptar</button>
+                    <button type="button" id="desencriptador">Desencriptar</button>
                 </div>
             </div>
 
@@ -54,4 +55,15 @@
     </div>
 
 </body>
+
+<script>
+
+    var btn = document.querySelector("#encriptador");
+    btn.onclick = cambiarContenido;
+
+    var btn2 = document.querySelector("#desencriptador");
+    btn2.onclick = desencriptar;
+    
+</script>
+
 </html>

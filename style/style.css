@@ -29,8 +29,16 @@ body{
 .area-escritura{
     resize: none;
     background-color: #D8DFE8;
-    border: 1px solid #000000;
+    border: none;
 }
+
+::placeholder {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    font-weight: bold;
+  }
+  
 
 .botones{
     display: flex;
