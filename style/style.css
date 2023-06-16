@@ -1,0 +1,131 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.todo-container{
+    background-color: #D8DFE8;
+    display: flex;
+    width: 1280px;
+    height: 609px;
+}
+
+.contenedor-principal{
+    display: inline-block;
+}
+
+.logo-alura img{
+    width: 120px;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.texto-usuario{
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+.area-escritura{
+    resize: none;
+    background-color: #D8DFE8;
+    border: 1px solid #000000;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-left: 240px;
+    margin-top: 30px;
+    height: auto;
+    width: 400px;
+}
+
+.botones p{
+    font-size: 10px;
+    opacity: 50%;
+}
+
+.condicionales{
+    display: flex;
+    flex-direction: row;
+}
+
+.botones img{
+    height: 10px;
+    width: 10px;
+    margin-right: 5px;
+}
+
+.botones-container{
+    margin-top: 10px;
+}
+
+button{
+    border-radius: 24px;
+    height: 40px;
+    width: 150px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#encriptador{
+    background-color: #0A3871;
+    color: white;
+    border-color: #0A3871;
+}
+
+#desencriptador{
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-color: #0A3871; 
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active {
+    filter: brightness(0.8); /* Reduce el brillo al 80% */
+  }
+
+.contenedor-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 550px;
+    margin-top: 40px;
+    margin-left: 120px;
+    border-radius: 32px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4),
+                0 0 5px rgba(0, 0, 0, 0.4),
+                0 0 5px rgba(0, 0, 0, 0.4),
+                0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.imagen-buqueda img{
+    height: 304px;
+    width: 336px;
+}
+
+.parrafo-nada{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+}
+
+p.mensaje1{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p.mensaje2{
+    margin-top: 5px;
+    font-size: 14px;
+}

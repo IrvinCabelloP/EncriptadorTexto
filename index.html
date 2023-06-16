@@ -5,17 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
+    <link rel="stylesheet" href="../Encriptador/style/meyerweb.com_eric_tools_css_reset_reset200802.css">
+    <link rel="stylesheet" href="../Encriptador/style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
     
-    <section class="contenedor-principal">
-        <div class="logo-alura">
-            <img src="" alt="">
-        </div>
-        <div class="texto-usuario">
-            <textarea name="area-escritura" id="areaescritura" cols="30" rows="10"></textarea>
-        </div>
-    </section>
+    <div class="todo-container">
+
+        <section class="contenedor-principal">
+
+            <div class="logo-alura">
+                <img src="img/logoalura.png" alt="Logo de alura">
+            </div>
+
+            <div class="texto-usuario">
+                <textarea class="area-escritura" id="areaEscritura" cols="70" rows="20"  placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+
+            <div class="botones">
+
+                <div class="condicionales">
+                    <img  class="signoExclamacion" src="img/bi_exclamation-circle-fill.png" alt="">
+                <p>Sólo letras minúsculas y mayusculas</p>
+                </div>
+
+                <div class="botones-container">
+                    <button type="submit" id="encriptador">Encriptar</button>
+                    <button type="su" id="desencriptador">Desencriptar</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="contenedor-secundario">
+
+            <div class="imagen-buqueda">
+                <img src="img/contenedorsec.png" alt="Imagen de una persona con una lupa">
+            </div>
+
+            <div class="parrafo-nada">
+                <p class="mensaje1">Ninún mensaje fue enontrado</p>
+                <p class="mensaje2">Ingrese el texto que desea encriptar o desncriptar</p>
+            </div>
+
+        </section>
+
+    </div>
 
 </body>
 </html>
