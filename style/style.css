@@ -5,7 +5,9 @@ body{
 .todo-container{
     background-color: #D8DFE8;
     display: flex;
-    width: 1280px;
+    /*width: 1280px;
+    height: 609px;*/
+    width: 100%;
     height: 609px;
 }
 
@@ -30,6 +32,8 @@ body{
     resize: none;
     background-color: #D8DFE8;
     border: none;
+    width: 550px;
+    height: 300px;
 }
 
 ::placeholder {
@@ -136,4 +140,76 @@ p.mensaje1{
 p.mensaje2{
     margin-top: 5px;
     font-size: 14px;
+}
+
+/*Media querys para pantallas de máximo 820x1180*/
+@media screen and (max-width:820px) {
+    
+    .todo-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contenedor-principal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-alura img{
+        width: 10%;
+        height: 10%;
+        margin-top: 74px;
+        margin-left: 15px;
+    }
+
+    .texto-usuario{
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+
+    .area-escritura{
+        resize: none;
+        background-color: #D8DFE8;
+        border: none;
+        width: 350px;
+        height: 150px;
+    }
+
+    ::placeholder {
+        font-size: 15px;
+      }
+
+      .botones{
+        margin-left: 8px;
+        margin-top: 30px;
+        height: auto;
+        width: 400px;
+    }
+
+    .contenedor-secundario{
+    width: 350px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 30px;
+    }
+
+    .imagen-buqueda img{
+        display: none;
+    }
+    
+    .parrafo-nada{
+        margin-top: 20px;
+    }
+    
+    p.mensaje1{
+        font-size: 10px;
+    }
+    
+    p.mensaje2{
+        margin-top: 5px;
+        font-size: 7px;
+    }
+
 }

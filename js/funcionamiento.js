@@ -58,10 +58,11 @@ function desencriptar(){
         boton.id = "copiado";
         boton.class = "btncopiar";
         boton.textContent = "Copiar";
-        // Modificar las propiedades de CSS del div secundario
+        // Modificar las propiedades de CSS del botón del div secundario
         boton.style.backgroundColor = "white";
         boton.style.borderColor = "#0A3871";
         boton.style.marginTop = "50px";
+        
         // Elimina los elementos dentro del contenedor secundario
         while (cambio.firstChild) {
             cambio.removeChild(cambio.firstChild);
