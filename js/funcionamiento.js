@@ -74,6 +74,14 @@ function desencriptar(){
 
         var btn3 = document.querySelector("#copiado");
         btn3.onclick = copiar;
+      }
 
+      function correrEncriptacion(){
+        cambiarContenido();
         encriptar();
+      }
+
+      function correrDesencriptacion(){
+        cambiarContenido();
+        desencriptar();
       }
